@@ -90,5 +90,5 @@ def main():
     plt.figure("Drag coefficient v/s drag force")
     plotDragForceCd()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
